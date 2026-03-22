@@ -1,3 +1,6 @@
+
+src/main/java/com/gestao_livraria/repository/Connection.java
+
 target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
