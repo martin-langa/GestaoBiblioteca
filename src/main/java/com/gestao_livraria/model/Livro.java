@@ -18,6 +18,15 @@ public class Livro {
         this.estoque = estoque;
     }
 
+    public Livro(String codigo, String titulo, Autor autor, Categoria categoria, double preco, int estoque) {
+        this.codigo = codigo;
+        this.titulo = titulo;
+        this.autor = autor;
+        this.categoria = categoria;
+        this.preco = preco;
+        this.estoque = estoque;
+    }
+
     public String getCodigo() {
         return codigo;
     }
